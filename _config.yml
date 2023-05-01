@@ -30,10 +30,10 @@ linkedin_username: joshua-mckerracher
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Josh and I'm a backend Software Engineer. All of the services I've built at State Farm run on AWS, and they all use Python. My experience at Micron involved a mix of on and off prem services, mostly using C#, Java, and Perl.
+  Hello! My name is Josh, and I enjoy creating things with code. My interest in software started while working on a second bachelor's degree in Electrical Engineering in 2019. Part of the Electrical Engineering curriculum included two Computer Science courses. After the first course in CS, I was hooked! I switched my major to Computer Science and completed a second bachelor's degree from Oregon State University. From November 2020 to August 2022 I was a DevOps Software Engineer at Micron working with a wide variety of technologies. I'm now at State Farm as a Full Stack Software Engineer building an asynchronous event driven microservices platform hosted on AWS that will process ~300k events per day. My experience at Micron involved a mix of on and off prem services, mostly using C#, Java, and Perl.
 
   I am most skilled in: <mark>AWS</mark> and <mark>Python</mark>
 
@@ -104,10 +104,14 @@ content:
         title: Oregon State University
         caption: 2018 - 2021
         sub_title: BS Computer Science
+        description: | # this will include new lines to allow paragraphs
+          This degree included courses in programming, software engineering, computer architecture, data structures, and algorithms.
       - layout: left
-        title: UC Santa Cryz
+        title: UC Santa Cruz
         caption: 2008 - 2010
         sub_title: BA Philosophy
+        description: | # this will include new lines to allow paragraphs
+          This degree included courses in logic, ethics, metaphysics, epistemology, and the history of philosophy. Philosophy majors learn to think critically, analyze arguments, and communicate effectively. They also develop strong writing and research skills.
         
 
   - title: A Little More About Me
