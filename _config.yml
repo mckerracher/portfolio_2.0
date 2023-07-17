@@ -98,8 +98,8 @@ content:
         link_text: Link - Purdue University Dependable Computing Systems Laboratory
         sub_title: Software Engineer - Part Time
         caption: May 2023 - Present
-#        quote: >
-#          Customers and communities rely on State Farm to help them face life's uncertainties. They come to State Farm for guidance with insurance needs, financial planning, and strengthening the community.
+        quote: >
+          Dependability meets Data Analytics, and at Large Scales.
         description: | # this will include new lines to allow paragraphs
           As a Software Engineer at Purdue, I've been working on a few different projects. Those projects used the following tools and technologies: Python, AWS, PostgreSQL, Kubernetes, JupyterHub.
             - Central responsibility to drive the ability to analyze large sets of data representing the "Anvil" super computer resource usage.
