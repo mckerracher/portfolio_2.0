@@ -48,7 +48,7 @@ linkedin_username: joshua-mckerracher
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello! My name is Josh, and I enjoy creating things with code. My interest in software started while working on a second bachelor's degree in Electrical Engineering. Part of the Electrical Engineering curriculum included two Computer Science courses. After the first course in CS, I was hooked! I switched my major to Computer Science and completed a second bachelor's degree from Oregon State University. From November 2018 to August 2022 I was a DevOps Software Engineer at Micron working with a wide variety of technologies. I'm now at State Farm as a Full Stack Software Engineer building an asynchronous event driven microservices platform hosted on AWS that will process ~300k events per day. My experience at Micron involved a mix of on and off prem services, mostly using C#, Java, and Perl.
+  Hello! My name is Josh, and I enjoy creating things with code. My interest in software started while working on a second bachelor's degree in Electrical Engineering. Part of the Electrical Engineering curriculum included two Computer Science courses. After the first course in CS, I was hooked! I switched my major to Computer Science and completed a second bachelor's degree from Oregon State University. From November 2018 to August 2022 I was a DevOps Software Engineer at Micron working with a wide variety of technologies. I'm now at State Farm as a Full Stack Software Engineer building an asynchronous event driven microservices platform hosted on AWS that will process ~300k events per day.
 
   I am most skilled in: <mark>AWS</mark> and <mark>Python</mark>
 
@@ -77,6 +77,36 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+          title: State Farm
+          link: https://www.statefarm.com/
+          # link_text: boringcompany.com
+          sub_title: Software Engineer
+          caption: August 2022 - Present
+          quote: >
+            Customers and communities rely on State Farm to help them face life's uncertainties. They come to State Farm for guidance with insurance needs, financial planning, and strengthening the community.
+          description: | # this will include new lines to allow paragraphs
+              As a Software Engineer at State Farm, I've been working on developing and maintaining applications hosted on AWS, building and maintaining CI/CD pipelines, participating in code reviews, evaluating customer requirements, working on architecture design, and writing and reviewing unit tests. I am proficient in a variety of languages, frameworks, and tools.
+
+      - layout: left
+        title: Purdue University - Dependable Computing Systems Laboratory
+        link: https://engineering.purdue.edu/dcsl/
+        link_text: Purdue University - Dependable Computing Systems Laboratory
+        sub_title: Software Engineer - Part Time
+        caption: May 2023 - Present
+        quote: >
+          Customers and communities rely on State Farm to help them face life's uncertainties. They come to State Farm for guidance with insurance needs, financial planning, and strengthening the community.
+        description: | # this will include new lines to allow paragraphs
+            As a Software Engineer at Purdue, I've been working on the following:
+            - Tools and technologies used: Python, SQL, AWS, PostgreSQL, Kubernetes, JupyterHub.
+            - Central responsibility to drive the ability to analyze large sets of data representing the "Anvil" super computer resource usage.
+            - Automated the ETL process from data creation to storage.
+            - Anonymized data to ensure privacy and security.
+            - Created a PostgreSQL Timescale DB for efficient data storage and retrieval.
+            - Set up a Kubernetes cluster to host a JupyterHub instance, enabling public access to and analysis of data.
+            - Advised and mentored students involved in the project, fostering a collaborative and educational environment.developing and maintaining applications hosted on AWS, building and maintaining CI/CD pipelines, participating in code reviews, evaluating customer requirements, working on architecture design, and writing and reviewing unit tests. I am proficient in a variety of languages, frameworks, and tools.
+
+
+      - layout: left
         title: Micron Technology
         link: https://www.micron.com/
         # link_text: boringcompany.com
@@ -85,18 +115,7 @@ content:
         quote: >
           A world leader in innovative memory solutions that transform how the world uses information. For over 40 years, Micron company has been instrumental to the world’s most significant technology advancements, delivering optimal memory and storage systems for a broad range of applications.
         description: | # this will include new lines to allow paragraphs
-            I worked as a Software Engineer at Micron Technology for just under 4 years. I was responsible for developing and maintaining applications hosted on AWS. I also built and maintained CI/CD pipelines, participated in code reviews, customer requirements meetings, architecture design, and unit test reviews. I have experience creating and using telemetry and metrics to drive operational excellence (Splunk).
-      - layout: left
-        title: State Farm
-        link: https://www.statefarm.com/
-        # link_text: boringcompany.com
-        sub_title: Software Engineer
-        caption: August 2022 - Present
-        quote: >
-          Customers and communities rely on State Farm to help them face life's uncertainties. They come to State Farm for guidance with insurance needs, financial planning, and strengthening the community.
-        description: | # this will include new lines to allow paragraphs
-            As a Software Engineer at State Farm, I've been working on developing and maintaining applications hosted on AWS, building and maintaining CI/CD pipelines, participating in code reviews, evaluating customer requirements, working on architecture design, and writing and reviewing unit tests. I am proficient in a variety of languages, frameworks, and tools.
-
+            I worked as a Software Engineer at Micron Technology for just under 3 years. I was responsible for developing and maintaining applications hosted on AWS. I also built and maintained CI/CD pipelines, participated in code reviews, customer requirements meetings, architecture design, and unit test reviews. I have experience creating and using telemetry and metrics to drive operational excellence (Splunk).
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
