@@ -48,9 +48,9 @@ linkedin_username: joshua-mckerracher
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello! My name is Josh, and I enjoy creating things with code. My interest in software started while working on a second bachelor's degree in Electrical Engineering. Part of the Electrical Engineering curriculum included two Computer Science courses. After the first course in CS, I was hooked! I switched my major to Computer Science and completed a second bachelor's degree from Oregon State University. From November 2018 to August 2022 I was a DevOps Software Engineer at Micron working with a wide variety of technologies. I'm now at State Farm as a Full Stack Software Engineer building an asynchronous event driven microservices platform hosted on AWS that will process ~300k events per day.
+  Hello! My name is Josh, and I enjoy creating things with code. My interest in software started while working on a second bachelor's degree in Electrical Engineering. Part of the Electrical Engineering curriculum included two Computer Science courses. After the first course in CS, I was hooked! I switched my major to Computer Science and completed a second bachelor's degree from Oregon State University. From November 2018 to August 2022 I was a DevOps Software Engineer at Micron working with a wide variety of technologies. I'm now at State Farm as a Software Engineer building an asynchronous event driven microservices platform hosted on AWS that will process ~300k events per day. I'm also at Purdue University's Dependable Computing Systems Laboratory working on some data engineering type work.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Python</mark>
+  I am most skilled in: <mark>AWS</mark>,<mark>Python</mark>, and <mark>Java</mark>
 
 content:
   - title: Projects # Title for the section
