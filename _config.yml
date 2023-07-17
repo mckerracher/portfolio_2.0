@@ -69,7 +69,6 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           OPaL is a dynamically typed language inspired by Python and C
-
         description: | # this will include new lines to allow paragraphs
           This was my senior project at Oregon State University. Along with a team of two other people, we created the OPaL language compiler. OPaL is a dynamically typed language inspired by Python and C, and its compiler is written in C. The compiler produces assembly code modeled after Java byte-code using a single address stack machine.
 
@@ -77,15 +76,15 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-          title: State Farm
-          link: https://www.statefarm.com/
-          # link_text: boringcompany.com
-          sub_title: Software Engineer
-          caption: August 2022 - Present
-          quote: >
-            Customers and communities rely on State Farm to help them face life's uncertainties. They come to State Farm for guidance with insurance needs, financial planning, and strengthening the community.
-          description: | # this will include new lines to allow paragraphs
-              As a Software Engineer at State Farm, I've been working on developing and maintaining applications hosted on AWS, building and maintaining CI/CD pipelines, participating in code reviews, evaluating customer requirements, working on architecture design, and writing and reviewing unit tests. I am proficient in a variety of languages, frameworks, and tools.
+        title: State Farm
+        link: https://www.statefarm.com/
+        # link_text: boringcompany.com
+        sub_title: Software Engineer
+        caption: August 2022 - Present
+        quote: >
+          Customers and communities rely on State Farm to help them face life's uncertainties. They come to State Farm for guidance with insurance needs, financial planning, and strengthening the community.
+        description: | # this will include new lines to allow paragraphs
+            As a Software Engineer at State Farm, I've been working on developing and maintaining applications hosted on AWS, building and maintaining CI/CD pipelines, participating in code reviews, evaluating customer requirements, working on architecture design, and writing and reviewing unit tests. I am proficient in a variety of languages, frameworks, and tools.
 
       - layout: left
         title: Purdue University - Dependable Computing Systems Laboratory
