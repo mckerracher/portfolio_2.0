@@ -89,14 +89,13 @@ content:
       - layout: left
         title: Purdue University - Dependable Computing Systems Laboratory
         link: https://engineering.purdue.edu/dcsl/
-        link_text: Purdue University - Dependable Computing Systems Laboratory
+        link_text: Link - Purdue University Dependable Computing Systems Laboratory
         sub_title: Software Engineer - Part Time
         caption: May 2023 - Present
         quote: >
           Customers and communities rely on State Farm to help them face life's uncertainties. They come to State Farm for guidance with insurance needs, financial planning, and strengthening the community.
         description: | # this will include new lines to allow paragraphs
-            As a Software Engineer at Purdue, I've been working on the following:
-            - Tools and technologies used: Python, SQL, AWS, PostgreSQL, Kubernetes, JupyterHub.
+          Tools and technologies used: Python, SQL, AWS, PostgreSQL, Kubernetes, JupyterHub. As a Software Engineer at Purdue, I've been working on the following:
             - Central responsibility to drive the ability to analyze large sets of data representing the "Anvil" super computer resource usage.
             - Automated the ETL process from data creation to storage.
             - Anonymized data to ensure privacy and security.
