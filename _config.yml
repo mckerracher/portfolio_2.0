@@ -101,21 +101,14 @@ content:
         quote: >
           Dependability meets Data Analytics, and at Large Scales.
         description: | # this will include new lines to allow paragraphs
-          As a Software Engineer at Purdue, I've been working on a few different projects. Those projects used the following tools and technologies: Python, AWS, PostgreSQL, Kubernetes, JupyterHub.
-            - Central responsibility to drive the ability to analyze large sets of data representing the "Anvil" super computer resource usage.
-            - Automated the ETL process from data creation to storage.
-            - Anonymized data to ensure privacy and security.
-            - Created a PostgreSQL Timescale DB for efficient data storage and retrieval.
-            - Set up a Kubernetes cluster to host a JupyterHub instance, enabling public access to and analysis of data.
-            - Advised and mentored students involved in the project, fostering a collaborative and educational environment.developing and maintaining applications hosted on AWS, building and maintaining CI/CD pipelines, participating in code reviews, evaluating customer requirements, working on architecture design, and writing and reviewing unit tests. I am proficient in a variety of languages, frameworks, and tools.
+          At Purdue as a Software Engineer, I have been actively involved in several diverse projects, leveraging technologies such as Python, AWS, PostgreSQL, Kubernetes, and JupyterHub. My primary responsibility was to oversee the analysis of large data sets representing the "Anvil" supercomputer's resource usage. I have successfully automated the ETL process, ensuring efficient data creation to storage transition, and implemented measures to anonymize data for privacy and security. Furthermore, I created a PostgreSQL Timescale DB for optimal data storage and retrieval, and established a Kubernetes cluster to host a JupyterHub instance, allowing public access and analysis of data. In addition, I played a key role in advising and mentoring students involved in the project, cultivating a collaborative and educational environment
 
 
       - layout: left
         title: Micron Technology
         link: https://www.micron.com/
-        # link_text: boringcompany.com
         sub_title: Software Engineer
-        caption: November 2018 - August 2022
+        caption: November 2020 - August 2022
         quote: >
           A world leader in innovative memory solutions that transform how the world uses information. For over 40 years, Micron company has been instrumental to the world’s most significant technology advancements, delivering optimal memory and storage systems for a broad range of applications.
         description: | # this will include new lines to allow paragraphs
