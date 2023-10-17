@@ -101,7 +101,7 @@ content:
         quote: >
           Dependability meets Data Analytics, and at Large Scales.
         description: | # this will include new lines to allow paragraphs
-          At Purdue as a Software Engineer, I have been actively involved in several projects, leveraging technologies such as Python, AWS, PostgreSQL, Kubernetes, and JupyterHub. My primary responsibility was to oversee the analysis of large data sets representing the "Anvil" supercomputer's resource usage. I have successfully automated the ETL process, ensuring efficient data creation to storage transition, and implemented measures to anonymize data for privacy and security. Furthermore, I created a PostgreSQL Timescale DB for optimal data storage and retrieval, and established a Kubernetes cluster to host a JupyterHub instance, allowing public access and analysis of data. In addition, I played a key role in advising and mentoring students involved in the project, cultivating a collaborative and educational environment
+          At Purdue as a Software Engineer, I have been actively involved in several projects, leveraging technologies such as Python, AWS, PostgreSQL, Kubernetes, and JupyterHub. My primary responsibility was to oversee and create the tools and infrastructure used to analyze large anonymized data sets representing supercomputer resource usage. I have successfully created a PostgreSQL Timescale database for optimal data storage and retrieval, and established a Kubernetes cluster to host a JupyterHub instance, allowing public access and analysis of data. In addition, I played a key role in advising and mentoring students involved in the project, cultivating a collaborative and educational environment. 
 
 
       - layout: left
