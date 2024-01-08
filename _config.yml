@@ -97,15 +97,26 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Ancestry
+        link: https://www.ancestry.com/
+        # link_text: boringcompany.com
+        sub_title: Software Engineer - Genomic Algorithms
+        caption: December 2023 - Present
+        quote: >
+          We empower journeys of personal discovery to enrich lives.
+        description: | # this will include new lines to allow paragraphs
+          My role at Ancestry is 100% backend, working on the Genomic Algorithms team. My team is responsible for the backend processes that make up the DNA processing pipeline. Using Nextflow, Python, Terraform, and other tools on AWS, this pipeline processes thousands of new DNA samples per day, matching them against the 23 million samples currently in Ancestry's databases. My role in this team is to both maintain existing features and develop new ones. 
+
+      - layout: left
         title: State Farm
         link: https://www.statefarm.com/
         # link_text: boringcompany.com
         sub_title: Software Engineer
-        caption: August 2022 - Present
+        caption: August 2022 - December 2023
         quote: >
           Customers and communities rely on State Farm to help them face life's uncertainties. They come to State Farm for guidance with insurance needs, financial planning, and strengthening the community.
         description: | # this will include new lines to allow paragraphs
-            As a Software Engineer at State Farm, I've been working on developing and maintaining applications hosted on AWS, building and maintaining CI/CD pipelines, participating in code reviews, evaluating customer requirements, working on architecture design, and writing and reviewing unit tests. I am proficient in a variety of languages, frameworks, and tools.
+            At State Farm, I been worked on developing and maintaining applications hosted on AWS, building and maintaining CI/CD pipelines, participating in code reviews, evaluating customer requirements, working on architecture design, and writing and reviewing unit tests.
 
       - layout: left
         title: Purdue University - Dependable Computing Systems Laboratory
