@@ -61,21 +61,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: FRESCO Data Repository and Analytics Notebook
-        link: https://www.jupyter.fresco-hpc.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fj-mckerracher%2Ffresco-updates&urlpath=lab%2Ftree%2Ffresco-updates%2F&branch=master
-        link_text: FRESCO Repository
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: https://github.com/j-mckerracher/fresco-updates
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          FRESCO Data Repository and Analytics
-        description: | # this will include new lines to allow paragraphs
-          Developed in tandem with students at Purdue, the purpose of this project is to provide public access to the FRESCO data repository and to provide some basic analysis capabilities. The FRESCO project is supported by the National Science Foundation, CISE Community Research Infrastructure (CCRI) program, "Open Computer System Usage Repository and Analytics Engine".
-      - layout: top-middle
         title: FRESCO Data Repository and Analytics Website
         link: www.frescodata.xyz
         link_text: www.frescodata.xyz
@@ -90,6 +75,36 @@ content:
           FRESCO Data Repository and Analytics
         description: | # this will include new lines to allow paragraphs
           The purpose of this project is to provide a public website, providing information about the FRESCO project and giving public access to the FRESCO data repository and analytics notebook.
+      - layout: top-middle
+        title: FRESCO Database API
+        link: https://github.com/j-mckerracher/FRESCO-DB-API
+        link_text: API Repository
+        additional_links:
+          - title: sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: https://github.com/j-mckerracher/FRESCO-DB-API
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          FRESCO Database API
+        description: | # this will include new lines to allow paragraphs
+          As part of the website development process, it was discovered that an API was needed to expose the FRESCO database to the website via API calls. The website needed a way to query the database directly on this page: https://www.frescodata.xyz/simple-repository-search/
+      - layout: top-middle
+        title: FRESCO Data Repository and Analytics Notebook
+        link: https://www.jupyter.fresco-hpc.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fj-mckerracher%2Ffresco-updates&urlpath=lab%2Ftree%2Ffresco-updates%2F&branch=master
+        link_text: FRESCO Repository
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: https://github.com/j-mckerracher/fresco-updates
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          FRESCO Data Repository and Analytics
+        description: | # this will include new lines to allow paragraphs
+          Developed in tandem with students at Purdue, the purpose of this project is to provide public access to the FRESCO data repository and to provide some basic analysis capabilities. The FRESCO project is supported by the National Science Foundation, CISE Community Research Infrastructure (CCRI) program, "Open Computer System Usage Repository and Analytics Engine".
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
