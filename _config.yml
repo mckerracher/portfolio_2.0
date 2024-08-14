@@ -92,7 +92,7 @@ content:
           As part of the website development process, it was discovered that an API was needed to expose the FRESCO database to the website via API calls. The website needed a way to query the database directly on this page: https://www.frescodata.xyz/simple-repository-search/
       - layout: top-middle
         title: FRESCO Data Repository and Analytics Notebook
-        link: https://www.jupyter.fresco-hpc.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fj-mckerracher%2Ffresco-updates&urlpath=lab%2Ftree%2Ffresco-updates%2F&branch=master
+        link: https://d3f5k1ty8at8b8.cloudfront.net
         link_text: FRESCO Repository
         additional_links:
           - title:  sproogen/modern-resume-theme
