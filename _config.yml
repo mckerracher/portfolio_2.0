@@ -48,15 +48,36 @@ linkedin_username: joshua-mckerracher
 # about_title: About Me
 about_profile_image: images/portrait.png
 about_content: | # this will include new lines to allow paragraphs
-  Hello! My name is Josh, and I'm a dedicated software engineer with a strong inclination towards coding and technology. My journey in the software realm began during my pursuit of a second bachelor's degree in Electrical Engineering, where I was introduced to Computer Science. The intellectual challenge and creative possibilities offered by the first course in Computer Science captivated me, prompting a shift in my academic focus. I subsequently completed a second bachelor's degree in Computer Science from Oregon State University. 
+  Hello! My name is Josh, and I'm a dedicated software engineer with a strong inclination towards coding and technology. My journey in the software realm began during my pursuit of a second bachelor's degree in Electrical Engineering, where I was introduced to Computer Science. The intellectual challenge and creative possibilities offered by the first course in Computer Science captivated me, prompting a shift in my academic focus. I subsequently completed a Bachelor's degree in Computer Science from Oregon State University. 
   
-  My first position as a Software Engineer after graduating was at Micron, where I gained experience working with a diverse range of technologies. After Micron, I spent about a year and a half at State Farm building a new event driven application using a microservices architecture on AWS (Python/Terraform) that processes about 300,000 events per day. Currently, I am employed at Ancestry as a Software Engineer on the Genomic Algorithms team, which is a 100% backend team. My team is responsible for the backend processes that make up the Ancestry DNA processing pipeline. Using Nextflow, Python, Terraform, Docker, and other tools on AWS, this pipeline processes thousands of new DNA samples per day, matching them against the 23 million samples currently in Ancestry's databases. My role in this team is to both maintain existing features and develop new ones. 
+  Currently, I am employed at Mayo Clinic as a Software Engineer on the PEaRLS Specimen Accessioning development team. I work as a core full-stack engineer across multiple code repositories, designing reference architectures for collaborative systems on GCP using Cloud Run and Memorystore (Redis). I am also the sole author of rls-nuget-orders-locker, a modular .NET library for order-locking domain contracts, and serve as the security champion for a three-team monorepo.
   
-  I also continue to hold a part-time position as a Software Engineer at Purdue University's Dependable Computing Systems Laboratory. Here, I have been involved in the FRESCO project, utilizing tools and technologies such as Python, FastAPI, Django, Docker, PostgreSQL, Kubernetes, and JupyterHub. My central responsibility has been to enhance the ability to analyze large sets of data representing supercomputer resource usage (the FRESCO project). I created a website for this project, which can be found at <mark>www.frescodata.xyz</mark>. Using FastAPI, I created an API that allows this website to securely read from the FRESCO database. I have also helped create a PostgreSQL Timescale DB for efficient data storage and retrieval. Additionally, I have helped set up a Kubernetes cluster to host a JupyterHub instance, enabling public access to and analysis of data. I also take pride in advising and mentoring students involved in the project, fostering a collaborative and educational environment. 
+  Previously, I worked at Ancestry on the Genomic Algorithms team, designing cloud-scale systems to process and analyze genomic data on AWS. Before that, I spent about a year and a half at State Farm building an event-driven microservices platform that processes approximately 300,000 events per day. My first position after graduating was at Micron, where I managed 200+ RedHat Linux production servers and designed monitoring solutions.
   
-  I am most skilled in: <mark>AWS</mark>, <mark>Python</mark>, <mark>Terraform</mark>, and <mark>Java</mark>.
+  I also continue to hold a part-time position as a Software Engineer at Purdue University's Dependable Computing Systems Laboratory. Here, I lead research on the FRESCO project, which has resulted in two publications. I designed an ETL pipeline processing 20.9M HPC jobs and built the FRESCO data access and visualization platform at <mark>www.frescodata.xyz</mark>. I also serve as the sole administrator for AWS infrastructure for the DCSL research lab.
+  
+  I am most skilled in: <mark>AWS</mark>, <mark>GCP</mark>, <mark>Python</mark>, <mark>.NET</mark>, and <mark>Terraform</mark>.
 
 content:
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: "Fresco: A Public Multi-Institutional Dataset for Understanding HPC System Behavior and Dependability"
+        link: https://www.frescodata.xyz
+        quote: >
+          PEARC '25 - Practice and Experience in Advanced Research Computing
+        description: | # this will include new lines to allow paragraphs
+          Joshua Stephen McKerracher, Preeti Mukherjee, Rajesh Kalyanam, and Saurabh Bagchi. 2025. In Practice and Experience in Advanced Research Computing (PEARC '25), July 20-24, 2025, Columbus, OH, USA. ACM, New York, NY, USA.
+
+      - layout: top-middle
+        title: "Wasted Cycles and Waiting Games: Analysis of HPC Resource Usage Using Production Cluster Data in FRESCO"
+        link: https://www.frescodata.xyz
+        quote: >
+          ACM IKDD CODS 2025 - 13th International Conference on Data Science
+        description: | # this will include new lines to allow paragraphs
+          Joshua Stephen McKerracher, Aryamaan Dhomne, and Saurabh Bagchi. 2025. In 13th International Conference on Data Science (ACM IKDD CODS 2025), December 17-20, 2025, Iiser, Pune, India.
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -110,26 +131,34 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Mayo Clinic
+        link: https://www.mayoclinic.org/
+        sub_title: Software Engineer
+        caption: September 2024 - Present
+        quote: >
+          The needs of the patient come first.
+        description: | # this will include new lines to allow paragraphs
+          As a core full-stack engineer on the PEaRLS Specimen Accessioning development team, I contribute across multiple code repositories (frontend and backend). I designed a reference architecture for collaborative order locking on GCP using Cloud Run and Memorystore (Redis HA), enabling optimistic locking and prioritizing extensibility, maintainability, high availability, and cost-aware capacity planning. I am the sole author of rls-nuget-orders-locker, a modular .NET library defining order-locking domain contracts with DI-ready APIs and thorough unit tests. I also serve as the security champion for mcs-products-mono-ui, a three-team monorepo, establishing Veracode SAST/SCA scanning cadence and ensuring continuous compliance across shared dependencies.
+
+      - layout: left
         title: Ancestry
         link: https://www.ancestry.com/
-        # link_text: boringcompany.com
         sub_title: Software Engineer - Genomic Algorithms
-        caption: December 2023 - Present
+        caption: December 2023 - September 2024
         quote: >
           We empower journeys of personal discovery to enrich lives.
         description: | # this will include new lines to allow paragraphs
-          My role at Ancestry is 100% backend, working on the Genomic Algorithms team. My team is responsible for the backend processes that make up the DNA processing pipeline. Using Nextflow, Python, Terraform, and other tools on AWS, this pipeline processes thousands of new DNA samples per day, matching them against the 23 million samples currently in Ancestry's databases. My role in this team is to both maintain existing features and develop new ones. 
+          Designed and implemented cloud-scale systems and services to process and analyze genomic data. Iterated on existing tools and services to provide additional features and improved performance up to 10x. Built applications and implemented data policies for compliance with GDPR. Partnered with Product, Research, and Service teams to build out technical and business requirements for Ethnicity Sub-Regions, a new feature of the AncestryDNA product released to millions of customers worldwide. Designed API contracts, specs, architecture diagrams, and other supporting documents ensuring the software is scalable and meets security requirements and data privacy regulations.
 
       - layout: left
         title: State Farm
         link: https://www.statefarm.com/
-        # link_text: boringcompany.com
         sub_title: Software Engineer
         caption: August 2022 - December 2023
         quote: >
-          Customers and communities rely on State Farm to help them face life's uncertainties. They come to State Farm for guidance with insurance needs, financial planning, and strengthening the community.
+          Customers and communities rely on State Farm to help them face life's uncertainties.
         description: | # this will include new lines to allow paragraphs
-            At State Farm, I been worked on developing and maintaining applications hosted on AWS, building and maintaining CI/CD pipelines, participating in code reviews, evaluating customer requirements, working on architecture design, and writing and reviewing unit tests.
+          Led design and implementation of WCCS, a new core feature of the CTO Routing service running Java on-prem. Acted as a core contributor building the CTO team's Shop Based Routing platform: an asynchronous event-driven microservices platform on AWS that processed ~300k events per day. Improved service monitoring with Datadog and Splunk. Created and maintained GitLab CI/CD pipelines that ran unit tests, linters, security scans, and deployed infrastructure to AWS. Mentored interns, encouraging quality coding practices and identifying security risks.
 
       - layout: left
         title: Purdue University - Dependable Computing Systems Laboratory
@@ -140,8 +169,7 @@ content:
         quote: >
           Dependability meets Data Analytics, and at Large Scales.
         description: | # this will include new lines to allow paragraphs
-          At Purdue as a Software Engineer, I have been actively involved in the FRESCO project, leveraging technologies such as Python, Django, PostgreSQL, Kubernetes, and JupyterHub. My primary responsibility was to oversee and create the tools and infrastructure used to analyze large anonymized data sets representing supercomputer resource usage. I have successfully created a website for this project using Python Django (www.frescodata.xyz). I have also helped create a PostgreSQL Timescale database for optimal data storage and retrieval, and established a Kubernetes cluster to host a JupyterHub instance, allowing public access and analysis of data. In addition, I played a role in advising and mentoring students involved in the project, cultivating a collaborative and educational environment. 
-
+          Led research on extracting value-added insights from the FRESCO dataset, resulting in two publications. Designed and built the FRESCO data access and visualization platform (www.frescodata.xyz) for HPC system behavior analysis. Designed an ETL pipeline processing 20.9M HPC jobs, integrating system metrics (CPU, Memory, IOPS, etc.) with SLURM/PBS accounting data. Implemented parallel computing solutions for large-scale data processing on HPC infrastructure. Sole administrator for AWS infrastructure for DCSL research lab, managing compute resources, user access permissions, and user budgets.
 
       - layout: left
         title: Micron Technology
@@ -149,9 +177,9 @@ content:
         sub_title: Software Engineer
         caption: November 2020 - August 2022
         quote: >
-          A world leader in innovative memory solutions that transform how the world uses information. For over 40 years, Micron company has been instrumental to the world’s most significant technology advancements, delivering optimal memory and storage systems for a broad range of applications.
+          A world leader in innovative memory solutions that transform how the world uses information.
         description: | # this will include new lines to allow paragraphs
-            I worked as a Software Engineer at Micron Technology for just under 3 years. I was responsible for developing and maintaining applications hosted on AWS. I also built and maintained CI/CD pipelines, participated in code reviews, customer requirements meetings, architecture design, and unit test reviews. I have experience creating and using telemetry and metrics to drive operational excellence (Splunk).
+          Managed 200+ RedHat Linux production servers: system monitoring, updates, patch management, and deployment readiness. Designed and implemented comprehensive system-level monitoring solution (CPU, memory, disk I/O) saving $200k annually. Led infrastructure preparation for new application deployments across on-premises data centers. Maintained hybrid cloud/on-prem infrastructure using AWS, Terraform, and automated CI/CD pipelines. Served as the SME on the server monitoring infrastructure.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
