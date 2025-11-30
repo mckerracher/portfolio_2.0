@@ -48,15 +48,17 @@ linkedin_username: joshua-mckerracher
 # about_title: About Me
 about_profile_image: images/portrait.png
 about_content: | # this will include new lines to allow paragraphs
-  Hello! My name is Josh, and I'm a dedicated software engineer with a strong inclination towards coding and technology. My journey in the software realm began during my pursuit of a second bachelor's degree in Electrical Engineering, where I was introduced to Computer Science. The intellectual challenge and creative possibilities offered by the first course in Computer Science captivated me, prompting a shift in my academic focus. I subsequently completed a Bachelor's degree in Computer Science from Oregon State University. 
+  Hello! I'm Josh, a Software Engineer specializing in Cloud Architecture and Full-Stack Development.
   
-  Currently, I am employed at Mayo Clinic as a Software Engineer building a healthcare specimen management web application using Angular, C# microservices, and MongoDB. I work as a core full-stack engineer across multiple code repositories, designing reference architectures for collaborative systems on GCP using Cloud Run and Memorystore (Redis). I am also the sole author of rls-nuget-orders-locker, a modular .NET library for order-locking domain contracts, and serve as the security champion for a three-team monorepo.
+  I thrive on building scalable systems. Currently, I engineer healthcare solutions at Mayo Clinic, utilizing Angular, C#, and MongoDB to build resilient microservices on GCP. I also serve as a security champion and library architect for my division.
   
-  Previously, I worked at Ancestry on the Genomic Algorithms team, designing cloud-scale systems to process and analyze genomic data on AWS. Before that, I spent about a year and a half at State Farm building an event-driven microservices platform that processes approximately 300,000 events per day. My first position after graduating was at Micron, where I managed 200+ RedHat Linux production servers and designed monitoring solutions.
+  My background balances deep industry experience with academic research:
   
-  I also continue to hold a part-time position as a Research Software Engineer at Purdue University's Dependable Computing Systems Laboratory, where I conduct research and have published two peer-reviewed papers. My work on the FRESCO project involved designing an ETL pipeline processing 20.9M HPC jobs and building the data visualization platform at <mark>www.frescodata.xyz</mark>. I also created web applications for other lab projects: <mark>agile-3-d-demo.vercel.app</mark> and <mark>tgl-demo.vercel.app</mark>. Additionally, I am conducting research for an Army Research Lab (ARL) project investigating the use of ML models to effectively manage battlefield resources. I also serve as the sole AWS administrator for the DCSL research lab.
+  - **Industry**: I've designed genomic processing systems at Ancestry, built high-volume event platforms at State Farm, and managed infrastructure at Micron.
   
-  I am most skilled in: <mark>AWS</mark>, <mark>GCP</mark>, <mark>Python</mark>, <mark>.NET</mark>, and <mark>Terraform</mark>.
+  - **Research**: As a researcher at Purdue University, I've published peer-reviewed papers, managed AWS environments, and built ETL pipelines analyzing over 20 million jobs for the FRESCO project.
+  
+  I am most at home working with <mark>AWS</mark>, <mark>GCP</mark>, <mark>Python</mark>, <mark>.NET</mark>, and <mark>Terraform</mark>.
 
 content:
   - title: Publications # Title for the section
