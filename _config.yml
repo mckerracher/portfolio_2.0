@@ -97,35 +97,21 @@ content:
         description: | # this will include new lines to allow paragraphs
           The purpose of this project is to provide a public website, providing information about the FRESCO project and giving public access to the FRESCO data repository and analytics notebook.
       - layout: top-middle
-        title: FRESCO Database API
-        link: https://github.com/j-mckerracher/FRESCO-DB-API
-        link_text: API Repository
-        additional_links:
-          - title: sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: https://github.com/j-mckerracher/FRESCO-DB-API
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        title: AGILE3D Interactive Demo
+        link: https://agile-3-d-demo.vercel.app/
+        link_text: agile-3-d-demo.vercel.app
         quote: >
-          FRESCO Database API
+          3D Adaptive Perception for Autonomous Vehicles
         description: | # this will include new lines to allow paragraphs
-          As part of the website development process, it was discovered that an API was needed to expose the FRESCO database to the website via API calls. The website needed a way to query the database directly on this page: https://www.frescodata.xyz/simple-repository-search/
+          An interactive web demonstration of the AGILE3D adaptive perception system for autonomous vehicles, using real Waymo dataset point clouds. Built with Angular and Three.js, the application features dual 3D point cloud viewers for side-by-side comparison of detection algorithms, real-time performance metrics, and interactive controls. The demo showcases how AGILE3D adapts 3D perception quality to network conditions while maintaining safety requirements, with support for multiple traffic scenarios including vehicle-heavy, pedestrian-heavy, and mixed environments.
       - layout: top-middle
-        title: FRESCO Data Repository and Analytics Notebook
-        link: https://d3f5k1ty8at8b8.cloudfront.net
-        link_text: FRESCO Repository
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: https://github.com/j-mckerracher/fresco-updates
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        title: TGL Network Simulation Demo
+        link: https://tgl-demo.vercel.app/
+        link_text: tgl-demo.vercel.app
         quote: >
-          FRESCO Data Repository and Analytics
+          Peer-to-Peer Network Visualization
         description: | # this will include new lines to allow paragraphs
-          Developed in tandem with students at Purdue, the purpose of this project is to provide public access to the FRESCO data repository and to provide some basic analysis capabilities. The FRESCO project is supported by the National Science Foundation, CISE Community Research Infrastructure (CCRI) program, "Open Computer System Usage Repository and Analytics Engine".
+          An Angular-based peer-to-peer Three.js Graphics Library demonstration showcasing efficient canvas-based 3D rendering and network simulation visualization. Features custom Three.js integration with Angular, optimized 2D/3D rendering pipelines, interactive network configuration controls, and real-time metrics panels for monitoring simulation performance.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
